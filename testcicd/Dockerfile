@@ -13,3 +13,5 @@ COPY . /usr/local/testcicd
 EXPOSE 23997
 
 ENV ASPNETCORE_URLS http://+:23997
+
+ENTRYPOINT ["dotnet", "testcicd.dll"]
