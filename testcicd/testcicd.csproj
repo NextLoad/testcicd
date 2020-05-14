@@ -9,9 +9,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EditorConfigFiles Include="Dockerfile">
+    <Compile Include="Dockerfile">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </EditorConfigFiles>
+    </Compile>
   </ItemGroup>
 
 
